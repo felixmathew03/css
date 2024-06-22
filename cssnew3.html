@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO</title>
+    <style>
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            color: turquoise;
+        }
+        a:active{
+            color: springgreen;
+        }
+        p::before{
+            content: url(got.png);
+           
+        }
+        p::after{
+            content: url(got.png);
+           
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pseudo Classes</h1> 
+    <a href="u.html">Unvisited Link</a><br>
+    <a href="v.html">Visited Link</a> <br>
+    <a href="m.html">Mouse over me</a><br>
+    <a href="a.html">Activate me</a><br>
+
+    <h2>Pseudo Elements</h2>
+    <p>Game of thrones</p>
+    Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.
+    <p>Game of thrones</p>
+</body>
+</html>
