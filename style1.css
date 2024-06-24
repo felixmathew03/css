@@ -10,3 +10,29 @@ h2{
 #a1,.a2,p{
     background-color: rgb(238, 233, 213);
 }
+h3{
+    border: 5px solid red;
+    border-radius: 7px;
+}
+p{
+    border-style: solid;
+}
+h1{
+    border-style: dashed;
+    margin: 20px 700px ;
+    padding: 30px 100px;
+}
+h2{
+    border-style: dotted;
+}
+p.a5{
+    border-style: double;
+}
+
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+td{
+    height: 50px;
+}
